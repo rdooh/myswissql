@@ -1,0 +1,25 @@
+{
+  "name": "myswissql",
+  "description":"Wrapper for a number of MySQL tools, such that the relative strengths and weaknesses of said tools can be leveraged, and interchanged, all from one api.  Not likely useful to anyone else until at least v0.2.0.",
+  "version": "0.0.0",
+  "email":"rob.dooh@threestonestudios.com",
+  "auth":"",
+  "private": false,
+  "dependencies": {
+    "mysql": "2.5.1",
+    "mysql2": "0.12.5"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-coffee": "~0.11.1",
+    "load-grunt-tasks": "~0.6.0",
+    "time-grunt": "~1.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.30",
+    "npm": ">=1.4.23"
+  }
+  
+}
